@@ -20,8 +20,8 @@ no_index:
     - t
     - xt
 requires:
-  Text::VisualWidth: 0
+  Text::VisualWidth: 0.02
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/papix/Acme-SuddenlyDeath.git
-version: 0.02
+version: 0.03
