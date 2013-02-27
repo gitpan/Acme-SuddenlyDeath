@@ -1,14 +1,14 @@
 ---
-abstract: 'Suddenly death (突然の死) generator'
+abstract: 'Suddenly death (çªç¶ã®æ­») generator'
 author:
   - 'papix <mail@papix.net>'
 build_requires:
-  ExtUtils::MakeMaker: 6.36
+  Encode: 2.39
+  Test::More: 0.98
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+  Module::Build: 0.40
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,11 +17,13 @@ name: Acme-SuddenlyDeath
 no_index:
   directory:
     - inc
-    - t
-    - xt
+provides:
+  Acme::SuddenlyDeath:
+    file: lib/Acme/SuddenlyDeath.pm
+    version: 0.04
 requires:
   Text::VisualWidth: 0.02
+  base: 0
 resources:
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/papix/Acme-SuddenlyDeath.git
-version: 0.03
+version: 0.04

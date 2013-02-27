@@ -1,0 +1,53 @@
+{
+   "abstract" : "Suddenly death (çªç¶ã®æ­») generator",
+   "author" : [
+      "papix <mail@papix.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-SuddenlyDeath",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Encode" : "2.39",
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Text::VisualWidth" : "0.02",
+            "base" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Acme::SuddenlyDeath" : {
+         "file" : "lib/Acme/SuddenlyDeath.pm",
+         "version" : "0.04"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.04"
+}
