@@ -1,14 +1,15 @@
 ---
-abstract: 'Suddenly death (çªç¶ã®æ­») generator'
+abstract: 'ASCII Art of sudden death (çªç¶ã®æ­») generator'
 author:
   - 'papix <mail@papix.net>'
 build_requires:
-  Encode: 2.39
   Test::More: 0.98
 configure_requires:
-  Module::Build: 0.40
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Minilla/v0.5.0, CPAN::Meta::Converter version 2.131490'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,14 +17,25 @@ meta-spec:
 name: Acme-SuddenlyDeath
 no_index:
   directory:
+    - t
+    - xt
     - inc
+    - share
+    - eg
+    - examples
+    - author
 provides:
   Acme::SuddenlyDeath:
     file: lib/Acme/SuddenlyDeath.pm
-    version: 0.04
+    version: 0.05
 requires:
+  Encode: 2.39
+  Exporter: 0
   Text::VisualWidth: 0.02
-  base: 0
+  parent: 0
+  perl: 5.008009
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.04
+  bugtracker: https://github.com/papix/Acme-SuddenlyDeath/issues
+  homepage: https://github.com/papix/Acme-SuddenlyDeath
+  repository: git://github.com/papix/Acme-SuddenlyDeath.git
+version: 0.05

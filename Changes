@@ -1,5 +1,9 @@
 Revision history for Perl extension Acme::SuddenlyDeath
 
+0.05 2013-06-10T02:47:07Z
+        - Changed builder module to Minilla.
+        - Add sudden_death/sudden_death_single function.
+
 0.04    Wed Feb 27 15:45:31 JST 2013
         - Changed builder module to Module::Build.
         - Corresponding to the multi-line input.
