@@ -9,7 +9,7 @@ use Text::VisualWidth::UTF8;
 
 our @EXPORT = qw/ suddenly_death suddenly_death_single sudden_death sudden_death_single /;
 
-use version; our $VERSION = '0.05';
+use version; our $VERSION = '0.06';
 
 sub _generator {
     my $decoded_str = shift;
@@ -85,6 +85,7 @@ Acme::SuddenlyDeath - ASCII Art of sudden death (突然の死) generator
   #   ＞ 突然の死 ＜
   #   ￣^Y^Y^Y^Y^￣
   print sudden_death("突然の\n死")."\n"
+  # outputs =>
   #   ＿人人人人＿
   #   ＞ 突然の ＜
   #   ＞   死   ＜

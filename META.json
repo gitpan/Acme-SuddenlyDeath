@@ -4,7 +4,7 @@
       "papix <mail@papix.net>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.0",
+   "generated_by" : "Minilla/v0.5.3",
    "license" : "perl_5",
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -56,7 +56,7 @@
    "provides" : {
       "Acme::SuddenlyDeath" : {
          "file" : "lib/Acme/SuddenlyDeath.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -70,5 +70,5 @@
          "web" : "https://github.com/papix/Acme-SuddenlyDeath"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }

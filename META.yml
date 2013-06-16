@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.0, CPAN::Meta::Converter version 2.131490'
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.131490'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,7 +27,7 @@ no_index:
 provides:
   Acme::SuddenlyDeath:
     file: lib/Acme/SuddenlyDeath.pm
-    version: 0.05
+    version: 0.06
 requires:
   Encode: 2.39
   Exporter: 0
@@ -38,4 +38,4 @@ resources:
   bugtracker: https://github.com/papix/Acme-SuddenlyDeath/issues
   homepage: https://github.com/papix/Acme-SuddenlyDeath
   repository: git://github.com/papix/Acme-SuddenlyDeath.git
-version: 0.05
+version: 0.06
