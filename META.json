@@ -4,8 +4,10 @@
       "papix <mail@papix.net>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.9.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -19,7 +21,8 @@
          "share",
          "eg",
          "examples",
-         "author"
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -45,18 +48,17 @@
       },
       "runtime" : {
          "requires" : {
-            "Encode" : "2.39",
             "Exporter" : "0",
             "Text::VisualWidth" : "0.02",
             "parent" : "0",
-            "perl" : "5.008009"
+            "perl" : "5.008001"
          }
       }
    },
    "provides" : {
       "Acme::SuddenlyDeath" : {
          "file" : "lib/Acme/SuddenlyDeath.pm",
-         "version" : "0.07"
+         "version" : "0.08"
       }
    },
    "release_status" : "stable",
@@ -70,5 +72,5 @@
          "web" : "https://github.com/papix/Acme-SuddenlyDeath"
       }
    },
-   "version" : "0.07"
+   "version" : "0.08"
 }
