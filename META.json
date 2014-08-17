@@ -4,7 +4,7 @@
       "papix <mail@papix.net>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.9.0",
+   "generated_by" : "Minilla/v1.1.0",
    "license" : [
       "perl_5"
    ],
@@ -41,7 +41,8 @@
       "develop" : {
          "requires" : {
             "Test::CPAN::Meta" : "0",
-            "Test::MinimumVersion" : "0.10108",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
             "Test::Pod" : "1.41",
             "Test::Spellunker" : "v0.2.7"
          }
@@ -58,19 +59,19 @@
    "provides" : {
       "Acme::SuddenlyDeath" : {
          "file" : "lib/Acme/SuddenlyDeath.pm",
-         "version" : "0.08"
+         "version" : "0.09"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/papix/Acme-SuddenlyDeath/issues"
+         "web" : "ssh://git@github.com/papix/Acme-SuddenlyDeath/issues"
       },
-      "homepage" : "https://github.com/papix/Acme-SuddenlyDeath",
+      "homepage" : "ssh://git@github.com/papix/Acme-SuddenlyDeath",
       "repository" : {
-         "url" : "git://github.com/papix/Acme-SuddenlyDeath.git",
-         "web" : "https://github.com/papix/Acme-SuddenlyDeath"
+         "url" : "ssh://git@github.com/papix/Acme-SuddenlyDeath.git",
+         "web" : "ssh://git@github.com/papix/Acme-SuddenlyDeath"
       }
    },
-   "version" : "0.08"
+   "version" : "0.09"
 }
